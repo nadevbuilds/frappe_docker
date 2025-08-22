@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "test"
 docker build \
   --build-arg FRAPPE_PATH=$FRAPPE_REPO_PATH \
   --build-arg FRAPPE_BRANCH=version-15-fsm \
